@@ -19,8 +19,11 @@ Run Docker: Docker-compose up -d --build
 Port will be: 8081
 
 Database config will be:
+
 user: homestead
+
 password: secret
+
 port: 33061 or 3306
 
 RUN: docker-compose exec php php artisan migrate 
