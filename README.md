@@ -1,4 +1,4 @@
-# To-do api using Lumen + Laravel.
+# To-do api using Lumen + Laravel on DOCKER.
 To-do app with Lumen/Laravel
 
 This will require Lumen/Laravel 8.0+
