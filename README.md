@@ -10,6 +10,8 @@ This api will have Login function (create, authenticate) and To-do list.
 
 Login with generate random Tokens, this tokens will be used to compare with To-do list.
 
+First of all you can clone this with: sudo git clone https://github.com/saleto/app2.com.git .
+
 For usage, you gonna need COMPOSER INSTALL in the SRC folder.
 
 Run Docker: Docker-compose up -d --build
