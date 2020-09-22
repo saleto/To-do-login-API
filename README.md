@@ -20,3 +20,9 @@ Database config will be:
 user: homestead
 password: secret
 port: 33061 or 3306
+
+RUN: docker-compose exec php php artisan migrate 
+or (php artisan migrate) to migrate database with your mysql
+
+Please remeber to kill Apache2 and Mysql running on local, will be only using mysql that already on Docker. This will help us not get in trouble with same port used.
+(Ubuntu: Sudo service apach2 stop, sudo service mysql stop)
